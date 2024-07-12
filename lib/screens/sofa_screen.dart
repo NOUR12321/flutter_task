@@ -89,7 +89,7 @@ class SofaScreen extends StatelessWidget {
                   children: const [
                     CircleAvatar(
                       radius: 7,
-                      backgroundColor: Color(0xff282828),
+                      backgroundColor: Color(0xff7993AE),
                     ),
                     CircleAvatar(
                       radius: 7,
@@ -97,7 +97,7 @@ class SofaScreen extends StatelessWidget {
                     ),
                     CircleAvatar(
                       radius: 7,
-                      backgroundColor: Color(0xff7993AE),
+                      backgroundColor: Color(0xff282828),
                     ),
                   ],
                 ),
@@ -186,7 +186,6 @@ class Number extends State<CounterScreen> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: const EdgeInsets.only(top: 13),
       width: 93,
       height: 30,
       decoration: BoxDecoration(
