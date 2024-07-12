@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class ScreenSplash extends StatelessWidget {
-  const ScreenSplash({super.key});
+class SofaScreen extends StatelessWidget {
+  const SofaScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:task/screens/screen_splash.dart';
+import 'package:task/screens/sofa_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: ScreenSplash(),
+      home: SofaScreen(),
     );
   }
 }
